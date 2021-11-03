@@ -42,20 +42,28 @@ public class MenuAdmin extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tempus Sans ITC", 3, 18)); // NOI18N
         jLabel2.setText("Menú Administrador");
 
+        btnCentroMedico.setBackground(new java.awt.Color(153, 204, 255));
         btnCentroMedico.setText("Registrar Centro Médico");
 
+        btnRegistrarDoctor.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarDoctor.setText("Registrar Doctor(a)");
 
+        btnRegistrarEnfermero.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarEnfermero.setText("Registrar Enfermero(a)");
 
+        btnRegistrarPaciente.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarPaciente.setText("Registrar Paciente");
 
+        btnRegistrarSecretario.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarSecretario.setText("Registrar Secretario(a)");
 
+        btnRegistrarAreas.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarAreas.setText("Registrar Áreas Laborales");
 
+        btntTpoCentro.setBackground(new java.awt.Color(153, 204, 255));
         btntTpoCentro.setText("Registrar Tipos de Centros");
 
+        btnRegistrarVacunas.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarVacunas.setText("Registrar Vacunas");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -70,16 +78,19 @@ public class MenuAdmin extends javax.swing.JFrame {
                     .addComponent(btnCentroMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btntTpoCentro))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addGap(39, 39, 39)
+                            .addComponent(btnRegistrarSecretario, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(btnRegistrarVacunas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(btnRegistrarEnfermero, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(39, 39, 39)
-                        .addComponent(btnRegistrarSecretario, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnRegistrarVacunas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnRegistrarAreas, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(btnRegistrarEnfermero, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(23, Short.MAX_VALUE))
+                        .addComponent(btnRegistrarAreas, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)

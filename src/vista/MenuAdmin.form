@@ -32,20 +32,25 @@
                   <Component id="btntTpoCentro" min="-2" max="-2" attributes="0"/>
               </Group>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
-                      <Component id="btnRegistrarSecretario" min="-2" pref="157" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="btnRegistrarVacunas" alignment="1" min="-2" pref="157" max="-2" attributes="0"/>
-                          <Component id="btnRegistrarAreas" alignment="1" min="-2" max="-2" attributes="0"/>
-                          <Component id="btnRegistrarEnfermero" alignment="1" min="-2" pref="157" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="39" pref="39" max="-2" attributes="0"/>
+                          <Component id="btnRegistrarSecretario" min="-2" pref="157" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="btnRegistrarVacunas" alignment="1" min="-2" pref="157" max="-2" attributes="0"/>
+                              <Component id="btnRegistrarEnfermero" alignment="1" min="-2" pref="157" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btnRegistrarAreas" min="-2" pref="179" max="-2" attributes="0"/>
+                  </Group>
               </Group>
-              <EmptySpace pref="23" max="32767" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="32767" attributes="0"/>
@@ -95,6 +100,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnCentroMedico">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Centro M&#xe9;dico"/>
       </Properties>
       <AuxValues>
@@ -103,6 +111,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarDoctor">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Doctor(a)"/>
       </Properties>
       <AuxValues>
@@ -111,6 +122,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarEnfermero">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Enfermero(a)"/>
       </Properties>
       <AuxValues>
@@ -119,6 +133,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarPaciente">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Paciente"/>
       </Properties>
       <AuxValues>
@@ -127,6 +144,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarSecretario">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Secretario(a)"/>
       </Properties>
       <AuxValues>
@@ -135,6 +155,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarAreas">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar &#xc1;reas Laborales"/>
       </Properties>
       <AuxValues>
@@ -143,6 +166,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btntTpoCentro">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Tipos de Centros"/>
       </Properties>
       <AuxValues>
@@ -151,6 +177,9 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnRegistrarVacunas">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="cc" red="99" type="rgb"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Registrar Vacunas"/>
       </Properties>
       <AuxValues>
