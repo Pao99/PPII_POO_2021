@@ -40,6 +40,8 @@ public class Inicio extends javax.swing.JFrame {
         txtUsuario = new javax.swing.JTextField();
         txtContrasena = new javax.swing.JPasswordField();
         btnIngresar = new javax.swing.JButton();
+        jLabel5 = new javax.swing.JLabel();
+        btnRegistrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(0, 153, 153));
@@ -62,6 +64,11 @@ public class Inicio extends javax.swing.JFrame {
         btnIngresar.setBackground(new java.awt.Color(153, 204, 255));
         btnIngresar.setText("Ingresar");
 
+        jLabel5.setText("o");
+
+        btnRegistrar.setBackground(new java.awt.Color(153, 204, 255));
+        btnRegistrar.setText("Registrarse");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -76,11 +83,16 @@ public class Inicio extends javax.swing.JFrame {
                             .addComponent(jLabel4)
                             .addComponent(jLabel3))
                         .addGap(18, 18, 18)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(btnIngresar)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(txtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
-                                .addComponent(txtContrasena)))))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(txtUsuario, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                            .addComponent(txtContrasena)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(48, 48, 48)
+                        .addComponent(btnIngresar)
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel5)
+                        .addGap(18, 18, 18)
+                        .addComponent(btnRegistrar)))
                 .addContainerGap(36, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(59, Short.MAX_VALUE)
@@ -105,7 +117,10 @@ public class Inicio extends javax.swing.JFrame {
                     .addComponent(jLabel4)
                     .addComponent(txtContrasena, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
-                .addComponent(btnIngresar)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnIngresar)
+                    .addComponent(jLabel5)
+                    .addComponent(btnRegistrar))
                 .addGap(23, 23, 23))
         );
 
@@ -149,11 +164,13 @@ public class Inicio extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnIngresar;
+    public javax.swing.JButton btnRegistrar;
     private com.toedter.calendar.JCalendarBeanInfo jCalendarBeanInfo1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
     private com.toedter.components.JLocaleChooserBeanInfo jLocaleChooserBeanInfo1;
     private com.toedter.components.JLocaleChooserBeanInfo jLocaleChooserBeanInfo2;
     private com.toedter.calendar.JMonthChooserBeanInfo jMonthChooserBeanInfo1;

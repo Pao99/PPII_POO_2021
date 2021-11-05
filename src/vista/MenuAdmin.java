@@ -36,6 +36,8 @@ public class MenuAdmin extends javax.swing.JFrame {
         btnRegistrarAreas = new javax.swing.JButton();
         btntTpoCentro = new javax.swing.JButton();
         btnRegistrarVacunas = new javax.swing.JButton();
+        btnRegistrarDiagnosticos = new javax.swing.JButton();
+        btnRegistrarTratamientos = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +68,12 @@ public class MenuAdmin extends javax.swing.JFrame {
         btnRegistrarVacunas.setBackground(new java.awt.Color(153, 204, 255));
         btnRegistrarVacunas.setText("Registrar Vacunas");
 
+        btnRegistrarDiagnosticos.setBackground(new java.awt.Color(153, 204, 255));
+        btnRegistrarDiagnosticos.setText("Registrar Diagnósticos");
+
+        btnRegistrarTratamientos.setBackground(new java.awt.Color(153, 204, 255));
+        btnRegistrarTratamientos.setText("Registrar Tratamientos");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -76,7 +84,8 @@ public class MenuAdmin extends javax.swing.JFrame {
                     .addComponent(btnRegistrarPaciente, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnRegistrarDoctor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnCentroMedico, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btntTpoCentro))
+                    .addComponent(btntTpoCentro)
+                    .addComponent(btnRegistrarDiagnosticos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
@@ -84,13 +93,15 @@ public class MenuAdmin extends javax.swing.JFrame {
                             .addComponent(btnRegistrarSecretario, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(btnRegistrarVacunas, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(btnRegistrarEnfermero, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(btnRegistrarEnfermero, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(39, 39, 39)
-                        .addComponent(btnRegistrarAreas, javax.swing.GroupLayout.PREFERRED_SIZE, 179, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btnRegistrarVacunas, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(btnRegistrarTratamientos, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(btnRegistrarAreas, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                .addContainerGap(32, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -113,11 +124,15 @@ public class MenuAdmin extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistrarDoctor)
                     .addComponent(btnRegistrarAreas))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnRegistrarDiagnosticos)
+                    .addComponent(btnRegistrarTratamientos))
+                .addGap(26, 26, 26)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnRegistrarPaciente)
                     .addComponent(btnRegistrarVacunas))
-                .addGap(36, 36, 36))
+                .addGap(28, 28, 28))
         );
 
         pack();
@@ -161,10 +176,12 @@ public class MenuAdmin extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton btnCentroMedico;
     public javax.swing.JButton btnRegistrarAreas;
+    public javax.swing.JButton btnRegistrarDiagnosticos;
     public javax.swing.JButton btnRegistrarDoctor;
     public javax.swing.JButton btnRegistrarEnfermero;
     public javax.swing.JButton btnRegistrarPaciente;
     public javax.swing.JButton btnRegistrarSecretario;
+    public javax.swing.JButton btnRegistrarTratamientos;
     public javax.swing.JButton btnRegistrarVacunas;
     public javax.swing.JButton btntTpoCentro;
     private javax.swing.JLabel jLabel2;
