@@ -1,4 +1,5 @@
 package modelo;
+import estructuras.*;
 
 public class Direccion {
   private String provincia;
