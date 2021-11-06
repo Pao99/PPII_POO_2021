@@ -36,11 +36,9 @@ CREATE TABLE CentroAtencion (
 );
 
 CREATE TABLE Usuario (
-	nombreUsuario varchar(20),
+	nombreUsuario varchar(20) PRIMARY KEY,
 	contrasenia varchar(20) not null,
 	tipoCuenta varchar(1) not null,
-
-	PRIMARY KEY (nombreUsuario)
 );
 CREATE TABLE Persona (
 	cedula int PRIMARY KEY,
